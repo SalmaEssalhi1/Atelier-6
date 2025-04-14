@@ -87,9 +87,11 @@ Le projet est organisé en quatre fichiers TypeScript principaux :
 
 => La classe Adresse représente une adresse physique avec les attributs suivants :
 
-rue : Attribut privé de type chaîne de caractères
-ville : Attribut privé de type chaîne de caractères
-codePostal : Attribut privé de type chaîne de caractères
+**rue** : Attribut privé de type chaîne de caractères
+
+**ville** : Attribut privé de type chaîne de caractères
+
+**codePostal** : Attribut privé de type chaîne de caractères
 ```
     private rue : string;
     private ville : string;
@@ -117,9 +119,11 @@ codePostal : Attribut privé de type chaîne de caractères
 
 => La classe Personne représente un individu avec les attributs suivants :
 
-nom : Attribut privé de type chaîne de caractères
-sexe : Attribut privé de type chaîne de caractères (valeurs possibles : 'M' ou 'F')
-adresses : Attribut privé de type tableau d'objets Adresse
+**nom** : Attribut privé de type chaîne de caractères
+
+**sexe** : Attribut privé de type chaîne de caractères (valeurs possibles : 'M' ou 'F')
+
+**adresses** : Attribut privé de type tableau d'objets Adresse
 ```
 private nom: string;
     private sexe: string;
